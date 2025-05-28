@@ -1,0 +1,122 @@
+# **Elephant Carpaccio Workshop Outline & Facilitation Guide**  
+
+## **Workshop Overview**  
+**Objective**: Teach participants how to break down large problems into small, deliverable slices (like "carpaccio") by practicing iterative development and vertical slicing.  
+
+**Duration**: 2-3 hours  
+**Audience**: Developers, Product Owners, Scrum Masters, Agile Coaches  
+**Format**: Hands-on exercise with debrief discussions  
+
+---  
+## **Workshop Outline**  
+
+### **1. Introduction (15 min)**  
+- **Welcome & Icebreaker** (5 min)  
+  - Ask: *"What’s the smallest feature you’ve ever shipped?"*  
+- **Elephant Carpaccio Concept** (10 min)  
+  - Explain the metaphor: *"How do you eat an elephant? One slice at a time!"*  
+  - Key principles:  
+    - Vertical slicing (end-to-end functionality in small pieces)  
+    - Thin, testable increments  
+    - Avoiding "horizontal" slices (e.g., just UI or just backend)  
+
+### **2. Exercise Setup (10 min)**  
+- **Form Teams** (3-4 people per group)  
+- **Present the Problem**:  
+  - *"Build a sales receipt calculator that applies discounts and taxes."*  
+  - Example requirements (adjust as needed):  
+    - Input: List of items with prices  
+    - Output: Subtotal, discounts (e.g., 10% off $100+), tax (e.g., 8.5%), total  
+    - Stretch: Coupons, bulk discounts, etc.  
+
+### **3. Slicing the Elephant (20 min)**  
+- **Step 1: Brainstorm Slices**  
+  - Teams list possible small slices (e.g., "Calculate subtotal for 1 item").  
+  - Encourage "stupid-simple" first steps (e.g., hardcode values).  
+- **Step 2: Prioritize**  
+  - Order slices by risk/value (e.g., "Can we demo a single-item receipt first?").  
+
+### **4. Build & Iterate (45-60 min)**  
+- **Cycle**:  
+  1. Pick a slice (5 min)  
+  2. Build/test (10-15 min)  
+  3. Demo & gather feedback (5 min per team)  
+- **Facilitator Tips**:  
+  - Push teams to ship *something* in the first 10 minutes.  
+  - Ask: *"What’s the smallest thing you can demo?"*  
+
+### **5. Retrospective (20 min)**  
+- **Discussion Questions**:  
+  - What was hard about slicing thinly?  
+  - Did early slices help or feel wasteful?  
+  - How could this apply to your real work?  
+- **Key Takeaways**:  
+  - Benefits of small increments (feedback, flexibility, reduced risk).  
+  - Signs of "non-carpaccio" slices (too big, untestable, horizontal).  
+
+### **6. Closing (10 min)**  
+- **Action Plan**: *"What’s one feature you’ll slice differently next week?"*  
+- **Feedback**: Dot voting on what worked best.  
+
+---  
+## **Facilitation Tips**  
+✅ **Embrace "Good Enough"**: Teams may resist trivial slices—remind them it’s about learning.  
+✅ **Show Examples**: Demo a "stupid-simple" slice (e.g., "Total always returns $1").  
+✅ **Timebox Strictly**: Keep iterations short to reinforce the mindset.  
+✅ **Adapt Complexity**: For advanced groups, add constraints (e.g., "No if-statements in first slice").  
+
+**Inspired by**: [Alistair Cockburn’s Elephant Carpaccio](http://alistair.cockburn.us/elephant-carpaccio-exercise/)  
+---  
+
+## **Variation 1: Remote-Friendly Facilitation**  
+**Tools Needed**: Zoom/Miro/Jamboard, breakout rooms, shared doc for demos.  
+
+### **Adjustments:**  
+- **Icebreaker**: Use a quick poll (e.g., "How comfortable are you with slicing work? 1–5").  
+- **Slicing Exercise**:  
+  - Teams use Miro/Jamboard to sketch slices (stickies for features → sort by size).  
+  - Demo via screen share (even if just pseudo-code or UI mockups).  
+- **Async Option**: Pre-record the intro, then regroup for live demos/retro.  
+
+---
+
+## **Variation 2: Non-Technical Teams (e.g., Product, Marketing)**  
+**Replace the "receipt calculator" with**:  
+- **Example Problem**: *"Plan a conference with 500 attendees."*  
+- **Sample Slices**:  
+  - "Book a venue for 10 people" (vs. locking down 500 upfront).  
+  - "Test email invite open rates with 5 colleagues."  
+- **Key Lesson**: Validate assumptions incrementally (e.g., "Do people even want this format?").  
+
+---
+
+## **Variation 3: Advanced Constraints (For Experienced Teams)**  
+**Add challenges to deepen learning**:  
+- **Constraint 1**: "No code until you’ve demoed a paper prototype."  
+- **Constraint 2**: "Each slice must generate measurable biz value (e.g., ‘User clicks Buy’)."  
+- **Constraint 3**: "Slice must be deployable to prod in <15 mins."  
+
+---
+
+## **Variation 4: Competitive Slicing (Game Dynamics)**  
+**Rules**:  
+- Teams race to deliver the most *validated* slices in 30 mins.  
+- "Validation" = User feedback (e.g., another team acts as customer).  
+- Prize for "Thinnest Slice That Delivered Value."  
+
+---
+
+## **Variation 5: Legacy System Edition**  
+**Problem**: "Add a new reporting feature to [monolithic system X]."  
+**Focus**:  
+- How to carve out slices *around* dependencies (e.g., "Mock the DB first").  
+- Discuss anti-patterns ("We can’t slice because of the API…").  
+
+---
+
+### **Facilitator Pro Tips for All Variations**  
+- **Show, Don’t Tell**: Start by slicing a non-workshop example (e.g., "Making tea" → boil water vs. build entire kitchen).  
+- **Troubleshooting**: If teams stall, ask: *"What’s the tiniest step that would prove/disprove an assumption?"*  
+- **Real-World Bridge**: End with "How will you apply this to your current project?" (Assign a follow-up in 2 weeks).  
+
+---
