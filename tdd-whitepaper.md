@@ -39,7 +39,7 @@ Companies like Google, Amazon, and Spotify use TDD to:
 - **Reduce rework** – Fewer bugs mean less time spent fixing them.  
 - **Speed up delivery** – Confident refactoring enables faster iteration.  
 - **Improve collaboration** – Tests become a shared language between devs, QA, and product owners.  
---# [Case Studies and Metrics: The Proven Impact of TDD](#Case-Studies-and-Metrics:-The-Proven-Impact-of-TDD)
+- #[Case Studies and Metrics: The Proven Impact of TDD](#Case-Studies-and-Metrics:-The-Proven-Impact-of-TDD)
 
 ### **TDD in Practice: The Bank Account Example**  
 The [TDD Bank Account repo](https://github.com/xp-dojo/tdd-bank-account-java/tree/PeteSolution) shows how:  
