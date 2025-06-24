@@ -39,7 +39,7 @@ Companies like Google, Amazon, and Spotify use TDD to:
 - **Reduce rework** – Fewer bugs mean less time spent fixing them.  
 - **Speed up delivery** – Confident refactoring enables faster iteration.  
 - **Improve collaboration** – Tests become a shared language between devs, QA, and product owners.  
-- # **[Case Studies and Metrics: The Proven Impact of TDD](#Case-Studies-and-Metrics:-The-Proven-Impact-of-TDD)**
+- **[Case Studies and Metrics: The Proven Impact of TDD](#case-studies-and-metrics-the-proven-impact-of-tdd)**
 
 ### **TDD in Practice: The Bank Account Example**  
 The [TDD Bank Account repo](https://github.com/xp-dojo/tdd-bank-account-java/tree/PeteSolution) shows how:  
@@ -47,26 +47,21 @@ The [TDD Bank Account repo](https://github.com/xp-dojo/tdd-bank-account-java/tre
 2. The simplest code passes the test.  
 3. Refactoring improves design **without changing behavior**.  
 
----
-
-## **Conclusion: TDD as a Competitive Advantage**  
 Teams that adopt TDD don’t just write tests—they **build confidence**. By ensuring correctness from the first line of code, TDD eliminates wasted effort and delivers **working, maintainable software faster**.  
 
-This white paper explores how to apply TDD effectively, combining proven methodologies with practical examples.  
-
----
+This white paper explores how to apply TDD effectively, combining proven methodologies with examples.  
 
 We cover:  
-- Outside-In TDD  
-- Test Naming Conventions  
-- Using TDD to Create Fluent Code  
-- When to Use (and Avoid) Mocks, Stubs, and Simulators  
-- When to Apply Specification by Example  
-- Using Tests as Living Documentation  
+- [Outside-In TDD](#1-outside-in-test-driven-development)
+- [Test Naming Conventions](#2-test-naming-conventions)
+- [Using TDD to Create Fluent Code](#3-using-tdd-to-create-fluent-code)
+- [When to Use (and Avoid) Mocks, Stubs, and Simulators](#4-when-to-use-mocks-stubs--simulators)
+- [When to Apply Specification by Example](#5-when-to-use-specification-by-example)
+- [Using Tests as Living Documentation](#6-using-tests-as-living-documentation)
 
 ---
 
-## **2. Outside-In Test-Driven Development**  
+## **1. Outside-In Test-Driven Development**  
 Outside-In TDD (also called "London School TDD") emphasizes designing systems from the user’s perspective inward.  
 
 ### **Key Steps:**  
@@ -85,7 +80,7 @@ Outside-In TDD (also called "London School TDD") emphasizes designing systems fr
 
 ---
 
-## **3. Test Naming Conventions**  
+## **2. Test Naming Conventions**  
 Clear test names improve readability and documentation.  
 
 ### **Recommended Conventions:**  
@@ -110,7 +105,7 @@ void deposit_positiveAmount_increasesBalance() {
 
 ---
 
-## **4. Using TDD to Create Fluent Code**  
+## **3. Using TDD to Create Fluent Code**  
 Fluent APIs improve readability by chaining method calls (e.g., `account.deposit(100).withdraw(50)`).  
 
 ### **How TDD Helps:**  
@@ -134,7 +129,7 @@ void transferBetweenAccounts_fluently() {
 
 ---
 
-## **5. When to Use Mocks, Stubs & Simulators**  
+## **4. When to Use Mocks, Stubs & Simulators**  
 ### **Use Mocks When:**  
 ✅ Testing interactions (e.g., verifying `TransactionLog` records deposits).  
 ✅ Isolating external systems (e.g., payment gateways).  
@@ -158,7 +153,7 @@ void transferBetweenAccounts_fluently() {
 
 ---
 
-## **6. When to Use Specification by Example**  
+## **5. When to Use Specification by Example**  
 Specification by Example (SBE) bridges business requirements and tests.  
 
 ### **Best Use Cases:**  
@@ -179,7 +174,7 @@ Then the new balance is $50
 
 ---
 
-## **7. Using Tests as Living Documentation**  
+## **6. Using Tests as Living Documentation**  
 Well-structured tests serve as always-up-to-date documentation.  
 
 ### **How to Achieve This:**  
@@ -194,7 +189,7 @@ Well-structured tests serve as always-up-to-date documentation.
 
 ---
 
-## **8. Conclusion & Engineering Standards**  
+## **7. Conclusion & Engineering Standards**  
 ### **Summary of Best Practices:**  
 ✔ **Start Outside-In** – Write high-level tests first.  
 ✔ **Follow Clear Naming Conventions** – Make tests self-documenting.  
@@ -245,8 +240,6 @@ By combining these techniques, teams can build **well-designed, well-tested, and
 - **Findings**:  
   - TDD-produced code had **higher cohesion** and **lower coupling**.  
   - Developers rated TDD code **easier to modify** later.  
-
----
 
 ---
 **References:**  
