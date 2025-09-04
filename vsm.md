@@ -3,11 +3,6 @@
 ### **Whitepaper: Accelerating Software Delivery**
 ### **A Practical Guide to Value Stream Mapping for Improving Release Cadence**
 
-**Version:** 1.0
-**Date:** October 26, 2023
-**Author:** AI/ML Solutions Architect
-**Target Audience:** Engineering Leaders, Product Managers, DevOps Engineers, Agile Coaches
-
 ---
 
 ### **Abstract**
