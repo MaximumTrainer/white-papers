@@ -1,4 +1,4 @@
-Of course! Here is a comprehensive Specification by Example practice kata designed to foster collaboration, refinement, and the creation of clear acceptance criteria through the 3 Amigos process.
+Here is a comprehensive Specification by Example practice kata designed to foster collaboration, refinement, and the creation of clear acceptance criteria through the 3 Amigos process.
 
 ### **Kata Title: The Loan Application Pre-Qualifier**
 
