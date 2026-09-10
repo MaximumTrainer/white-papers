@@ -465,3 +465,7 @@ Do not attempt all of this at once; each layer pays for the next.
 **Adoption.** Week 1: hooks + a sub-80-line AGENTS.md. Month 1: test-first agent tasks in one area, architectural linting, ADRs. Quarter 1: ports-and-adapters along one seam, ubiquitous-language renames. Watch median diff size, revert rate, review time, and above all **agent retry count** — the purest measure of determinism you have.
 
 **For leadership.** None of this is AI-specific spend. It is standard engineering discipline whose return has been multiplied: every rule you mechanise pays out on every agent session, every developer, every day.
+
+## External Refrences
+- [Sensors for Coding Agents](https://martinfowler.com/articles/sensors-for-coding-agents.html)
+- [Harness Engineering](https://martinfowler.com/articles/harness-engineering.html)
